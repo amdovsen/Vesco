@@ -9,6 +9,8 @@
 }
 
 
+
+
 /* Medium Devices (landscape Tablets & Medium Desktops) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -75,12 +77,14 @@
     }
 }
 
-/* Extra Small Devices (new media query) */
+/* Small Devices (iphoneX portrait) */
+@media only screen 
+    and (width : 375px) 
+    and (height : 635px)
+    and (orientation : portrait)  
+    and (-webkit-device-pixel-ratio : 3) { }
 
-@media (max-width:640px) {
-  section {
-    background-attachment:initial;
-  }
+
 
 /* Extra Small Devices (Landscape Phones & Portrait Tablets) */
 
@@ -147,6 +151,13 @@
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
     /* OK*/
+
+/* Extra Small Devices (new media query) */
+
+@media (max-width:640px) {
+  section {
+    background-attachment:initial;
+  }
 
 
 /* Extra Small Devices (Portrait Phones & Smaller devices) */

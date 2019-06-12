@@ -24,16 +24,16 @@
         padding: 0;
     }
     .bg-home {
-        max-width: 100%;
+        max-width: 1199px;
     }
     .bg-about {
-        max-width: 100%;
+        max-width: 1199px;
     }
     .bg-testimonials {
-        max-width: 100%    
+        max-width: 1199px;    
     }
      .bg-stats {
-        max-width: 100%
+        max-width: 1199px;
     }
 }
     

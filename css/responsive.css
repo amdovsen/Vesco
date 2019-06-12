@@ -75,6 +75,12 @@
     }
 }
 
+/* Extra Small Devices (new media query) */
+
+@media (max-width:640px) {
+  section {
+    background-attachment:initial;
+  }
 
 /* Extra Small Devices (Landscape Phones & Portrait Tablets) */
 

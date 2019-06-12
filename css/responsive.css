@@ -23,6 +23,9 @@
     .vesco-nav-wrapper {
         padding: 0;
     }
+    .bg-parallax {
+        max-width: 1199px;
+            }
     .bg-home {
         max-width: 1199px;
     }
